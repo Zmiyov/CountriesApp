@@ -13,7 +13,6 @@
 		8D1E2729264D7065009EC797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E2728264D7065009EC797 /* Preview Assets.xcassets */; };
 		A56B865029DD958B004088DD /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = A56B864F29DD958B004088DD /* Apollo */; };
 		A56B865529DDE162004088DD /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = A56B865429DDE162004088DD /* Queries.graphql */; };
-		A56B865729DDE18D004088DD /* Apolllo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B865629DDE18D004088DD /* Apolllo.swift */; };
 		A56B865E29DDF4B5004088DD /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = A56B865D29DDF4B4004088DD /* schema.graphqls */; };
 		A56B866329DDF668004088DD /* CountriesAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A56B866229DDF668004088DD /* CountriesAPI */; };
 		A56B866529DDF6E3004088DD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B866429DDF6E3004088DD /* Network.swift */; };
@@ -31,7 +30,6 @@
 		8D1E2728264D7065009EC797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D1E272A264D7065009EC797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56B865429DDE162004088DD /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
-		A56B865629DDE18D004088DD /* Apolllo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apolllo.swift; sourceTree = "<group>"; };
 		A56B865D29DDF4B4004088DD /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		A56B866029DDF634004088DD /* CountriesAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CountriesAPI; path = CountriesApp/CountriesAPI; sourceTree = "<group>"; };
 		A56B866429DDF6E3004088DD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -77,9 +75,8 @@
 			children = (
 				A56B866A29DE21A5004088DD /* ViewModels */,
 				A56B865329DDE131004088DD /* GraphQL */,
-				8D1E2721264D7064009EC797 /* CountriesAppApp.swift */,
-				A56B866429DDF6E3004088DD /* Network.swift */,
 				8D1E2723264D7064009EC797 /* ContentView.swift */,
+				8D1E2721264D7064009EC797 /* CountriesAppApp.swift */,
 				A56B866629DE0C7D004088DD /* CountryDetailView.swift */,
 				8D1E2725264D7065009EC797 /* Assets.xcassets */,
 				8D1E272A264D7065009EC797 /* Info.plist */,
@@ -99,9 +96,9 @@
 		A56B865329DDE131004088DD /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				A56B866429DDF6E3004088DD /* Network.swift */,
 				A56B865D29DDF4B4004088DD /* schema.graphqls */,
 				A56B865429DDE162004088DD /* Queries.graphql */,
-				A56B865629DDE18D004088DD /* Apolllo.swift */,
 				A56B866829DE0FDA004088DD /* GetInfoQuery.graphql */,
 			);
 			path = GraphQL;
@@ -215,7 +212,6 @@
 				8D1E2722264D7064009EC797 /* CountriesAppApp.swift in Sources */,
 				A56B866529DDF6E3004088DD /* Network.swift in Sources */,
 				A56B866C29DE21CD004088DD /* CountryListViewModel.swift in Sources */,
-				A56B865729DDE18D004088DD /* Apolllo.swift in Sources */,
 				A56B866729DE0C7D004088DD /* CountryDetailView.swift in Sources */,
 				A56B866E29DE2823004088DD /* CountryDetailViewModel.swift in Sources */,
 			);
